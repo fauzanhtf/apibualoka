@@ -1,0 +1,7 @@
+//Region
+[GET] getregion = apibualoka/region/getregion.php?parent={parent id}
+
+//User
+[POST] register = apibualoka/user/register.php (req : email, name, password, telp, address, district, city, province)
+[POST] login = apibualoka/user/login.php (req : email, password)
+[GET] logout = apibualoka/user/logout.php?iduser={id user}
